@@ -11,3 +11,8 @@ A tutorial can be followed [here](https://github.com/WalkingMachine/sara_wiki/wi
 * [CUDNN](https://developer.nvidia.com/cudnn)
 * [CUDA](https://developer.nvidia.com/cuda-downloads?target_os=Linux)
 * [BBoxLabelTool](https://github.com/puzzledqs/BBox-Label-Tool)
+
+### YOLOV2 integration
+1. Add the .cfg file to the package darknet_ros (darknet_ros/yolo_network_config/cfg/...)
+2. Add the .weights file to the package darknet_ros (darknet_ros/yolo_network_config/weights/...)
+3. Modify the .yaml file and add the classes names (darknet_ros/config/...)
