@@ -1,5 +1,4 @@
 # wm_object_detection
-
 This repo will guide the user to train his custom object model to use with [YOLOV2](https://github.com/WalkingMachine/darknet_ros).
 
 ### Tutorial

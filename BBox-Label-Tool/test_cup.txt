@@ -1,0 +1,10 @@
+data/cup/cup120.JPEG
+data/cup/cup22.JPEG
+data/cup/cup12.JPEG
+data/cup/cup102.JPEG
+data/cup/cup9.JPEG
+data/cup/cup5.JPEG
+data/cup/cup197.JPEG
+data/cup/cup4.JPEG
+data/cup/cup108.JPEG
+data/cup/cup59.JPEG
