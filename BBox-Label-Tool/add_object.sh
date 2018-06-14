@@ -22,6 +22,20 @@ mkdir -p ./Images/$CLASS_ID
 mkdir -p ./Examples/$CLASS_ID
 mkdir -p ./Labels/$CLASS_ID
 
+# Select video
+FILE=`zenity --file-selection --title="Sélectionnez la video"`
+case $? in
+        0)
+              echo "\"$FILE\" est sélectionné."
+              ffmpeg -i $FILE -vf fps=10 ./Images/$CLASS_ID/$CLASS_LABEL%d.JPEG
+              ;;
+        1)
+              echo "Aucun fichier sélectionné.";;
+        -1)
+              echo "Une erreur inattendue est survenue.";;
+esac
+
+
 # if [[ $REPLY =~ 'yes' ]]
 # then
 #     echo "Will save DB."
