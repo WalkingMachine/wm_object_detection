@@ -1,5 +1,0 @@
-/home/jeffrey/Github/wm_object_detection/BBox-Label-Tool/Images/004/out150.JPEG
-/home/jeffrey/Github/wm_object_detection/BBox-Label-Tool/Images/004/out155.JPEG
-/home/jeffrey/Github/wm_object_detection/BBox-Label-Tool/Images/004/out71.JPEG
-/home/jeffrey/Github/wm_object_detection/BBox-Label-Tool/Images/004/out60.JPEG
-/home/jeffrey/Github/wm_object_detection/BBox-Label-Tool/Images/004/out110.JPEG

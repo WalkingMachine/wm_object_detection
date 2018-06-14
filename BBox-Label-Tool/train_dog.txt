@@ -1,3 +1,0 @@
-data/dog/test2.JPEG
-data/dog/test.JPEG
-data/dog/test3.JPEG
