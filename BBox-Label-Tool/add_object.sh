@@ -28,9 +28,10 @@ case $? in
         0)
               echo "\"$FILE\" est sélectionné."
               ffmpeg -i $FILE -vf fps=10 ./Images/$CLASS_ID/$CLASS_LABEL%d.JPEG
+              python main.py
               ;;
         1)
-              echo "Aucun fichier sélectionné.";;
+              echo "Aucun fichier sélectionné. Va quitter";;
         -1)
               echo "Une erreur inattendue est survenue.";;
 esac
